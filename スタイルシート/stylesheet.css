@@ -9,8 +9,7 @@ head {}
 header {
 max-width: 100%;
 height:860px;
-background-image: url("https://genkimita.github.io/mosya_airbnb/イメージ/68f5f594-985e-48dc-8c82-ec1e090c6b3a.jpg");
-
+background-color:black;
 }
 .menu {
 font-weight: 600;
