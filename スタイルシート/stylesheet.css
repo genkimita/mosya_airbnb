@@ -29,7 +29,7 @@ list-style: none;
 }
 .menu-box p{
 color:#ffffff;
-display: inline-block;
+float:left;
 }
 .menu-list {
   color:#ffffff;
