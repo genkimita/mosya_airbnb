@@ -24,10 +24,8 @@ display: inline-block;
 width:35px;
 height:35px;
 padding-left:25px;
-text-align: left;
 }
 .menu-box {
-text-align: right;
 list-style: none;
 }
 .menu-box p{
