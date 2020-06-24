@@ -29,6 +29,7 @@ header {
     }
     .menu-wrapper-list {
       color:rgba(255, 255, 255,1.0);
+      list-style: none;
       display: inline-block;
     }
     .menu-list:hover {
@@ -37,7 +38,7 @@ header {
       padding-bottom:35px;
     }
   .top {}
-    
+
 
 body {}
   .product {}
