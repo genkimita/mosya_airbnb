@@ -1,4 +1,4 @@
-
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
 
 html {
   font-weight: normal;
@@ -81,3 +81,6 @@ body {}
 footer {}
 .address {}
 .copyright {}
+
+
+}
