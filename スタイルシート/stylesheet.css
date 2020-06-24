@@ -32,12 +32,12 @@ header {
       text-align: right;
     }
     .menu-wrapper-list {
-      color:rgba(255, 255, 255,1.0);
+      color:#ffffff;
       display: inline-block;
     }
     .menu-list:hover {
-      color:rgba(255, 255, 255,1.0);
-      border-bottom:1px solid rgba(255, 255, 255,1.0) ;
+      color:#ffffff;
+      border-bottom:1px solid #ffffff ;
       padding-bottom:35px;
     }
   .top {
