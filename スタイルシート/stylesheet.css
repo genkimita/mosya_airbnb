@@ -9,7 +9,7 @@ html {
 head {}
 
 header {
-max-width: 1495px;
+max-width: 100%;
 height:860px;
 background: url(イメージ/68f5f594-985e-48dc-8c82-ec1e090c6b3a.jpg);
 list-style: none;
