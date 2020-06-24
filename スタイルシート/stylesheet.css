@@ -1,4 +1,4 @@
-@media screen {
+
 
 html {
   font-weight: normal;
@@ -9,78 +9,75 @@ html {
 head {}
 
 header {
-  max-width: 1495px;
-  height:860px;
-  background: url(イメージ/68f5f594-985e-48dc-8c82-ec1e090c6b3a.jpg);
-  list-style: none;
+max-width: 1495px;
+height:860px;
+background: url(イメージ/68f5f594-985e-48dc-8c82-ec1e090c6b3a.jpg);
+list-style: none;
 }
-  .menu {
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 14px;
-  }
-    .menu-wrapper {
-      display: inline-block;
-    }
-    .menu-wrapper-icon {
-      width:35px;
-      height:35px;
-      padding-left:25px;
-      text-align: left;
-    }
-    .menu-box {
-      text-align: right;
-    }
-    .menu-wrapper-list {
-      color:#ffffff;
-      display: inline-block;
-    }
-    .menu-list:hover {
-      color:#ffffff;
-      border-bottom:1px solid #ffffff ;
-      padding-bottom:35px;
-    }
-  .top {
-    color:rgba(255, 255, 255,1.0);
-  }
-    .top-signup-one {
-      font-weight: 800;
-      font-size: 46px;
-      line-height: 52px;
-    }
-    .top-signup-two {
-      font-weight: 600;
-      font-size: 16px;
-      line-height: 22px;
-    }
-    .top-signup-three {
-      font-weight: 600;
-      font-size: 16px;
-      line-height: 22px;
-    }
-    .top-signup input{
-      width:450px;
-      height:60px;
-    }
-    .top-signup-four {
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 22px;
-    }
+.menu {
+font-weight: 600;
+font-size: 14px;
+line-height: 14px;
+}
+.menu-wrapper {
+display: inline-block;
+}
+.menu-wrapper-icon {
+width:35px;
+height:35px;
+padding-left:25px;
+text-align: left;
+}
+.menu-box {
+text-align: right;
+}
+.menu-wrapper-list {
+color:#ffffff;
+display: inline-block;
+}
+.menu-list:hover {
+color:#ffffff;
+border-bottom:1px solid #ffffff ;
+padding-bottom:35px;
+}
+.top {
+color:rgba(255, 255, 255,1.0);
+}
+.top-signup-one {
+font-weight: 800;
+font-size: 46px;
+line-height: 52px;
+}
+.top-signup-two {
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+}
+.top-signup-three {
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+}
+.top-signup input{
+width:450px;
+height:60px;
+}
+.top-signup-four {
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+}
 
 
 body {}
-  .product {}
-  .about {}
-    .athome {}
-    .team {}
-    .creativity {}
-  .message {}
-  .join {}
+.product {}
+.about {}
+.athome {}
+.team {}
+.creativity {}
+.message {}
+.join {}
 
 footer {}
-  .address {}
-  .copyright {}
-
-
-}
+.address {}
+.copyright {}
