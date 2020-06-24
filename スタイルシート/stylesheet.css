@@ -31,6 +31,10 @@ list-style: none;
 color:#ffffff;
 display: inline-block;
 }
+.menu-list {
+  color:#ffffff;
+  padding-bottom:35px;
+}
 .menu-list:hover {
 color:#ffffff;
 border-bottom:1px solid #ffffff ;
