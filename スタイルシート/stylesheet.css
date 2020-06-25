@@ -122,7 +122,6 @@ line-height: 17px;
 
 body {
   width:100%;
-  height:760px;
 }
 .product {
   text-align: center;
@@ -146,10 +145,56 @@ body {
   }
 
 
-.about {}
+.about {
+  width:100%;
+  padding: 8px;
+}
 .athome {}
+.athome-box {
+  display: inline-block;
+  padding: 8px;
+}
 .team {}
+.team-box {
+  display: inline-block;
+  padding: 8px;
+}
 .creativity {}
+.creativity-box {
+  display: inline-block;
+  padding: 8px;
+}
+
+.credit {
+  width:100%;
+  background-color:rgb(3, 107, 112);
+  color:#ffffff;
+}
+.credit-boxgate {
+  text-align: center;
+}
+.credit-box {
+  width:50%;
+}
+.credit-box-one {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+}
+.credit-box-two {
+  width:390px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+}
+.credit-box-three {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+.credit-box-three span:hover{
+  border-bottom:2px solid #ffffff ;
+}
 .message {}
 .join {}
 
