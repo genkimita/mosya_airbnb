@@ -31,8 +31,8 @@ display: inline-block;
 img.menu-icon {
   width:35px;
   height:35px;
+  padding-top:25px;
   padding-left:25px;
-  padding-bottom:35px;
 }
 .menu-box {
 list-style: none;
@@ -50,7 +50,7 @@ float:left;
 .menu-list:hover {
 color:#ffffff;
 border-bottom:1px solid #ffffff ;
-padding-bottom:35px;
+padding-bottom:34px;
 }
 .top {
 color:rgba(255, 255, 255,1.0);
