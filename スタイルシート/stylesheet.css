@@ -1,4 +1,11 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 @media screen {
+
+
 
 html {
   font-weight: normal;
