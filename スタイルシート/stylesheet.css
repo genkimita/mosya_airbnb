@@ -9,7 +9,7 @@ head {}
 header {
 width:100%;
 height:860px;
-background-color:#2f5167;
+background: url(https://raw.githubusercontent.com/genkimita/mosya_airbnb/master/イメージ/68f5f594-985e-48dc-8c82-ec1e090c6b3a.jpg);
 }
 .menu {
 font-weight: 600;
