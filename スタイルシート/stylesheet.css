@@ -119,10 +119,11 @@ line-height: 17px;
 }
 
 body {
-  width:100%;
 }
 .product {
   text-align: center;
+  width:100%;
+  height:760px;
 }
   .product-wrapper {
     padding-top:100px;
@@ -151,20 +152,83 @@ body {
   width:100%;
   padding: 8px;
 }
-.athome {}
+.athome {
+  text-align: center;
+}
 .athome-box {
   display: inline-block;
   padding: 8px;
 }
-.team {}
+.athome-box-one {
+  width:630px;
+  height:625px;
+}
+.athome-box-two {
+  width:890px;
+  height:625px;
+  background-color:rgb(235, 235, 235);
+}
+.team {
+
+}
 .team-box {
   display: inline-block;
   padding: 8px;
 }
-.creativity {}
+.team-box-one {
+  width:890px;
+  height:625px;
+  background-color:rgb(3, 107, 112);
+  color:#ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+.team-box-one h1 h2 h3 {
+  margin: 0
+}
+.team-box-two {
+  width:600px;
+  height:625px;
+}
+.creativity {
+
+}
 .creativity-box {
   display: inline-block;
   padding: 8px;
+}
+.creativity-box-one {
+  width:630px;
+  height:625px;
+}
+.creativity-box-two {
+  width:890px;
+  height:625px;
+  background-color:rgb(235, 235, 235);
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+.creativity-box-two {
+  margin: 0
+}
+.creativity-box-two h1{
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 52px;
+}
+.creativity-box-two h2 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+.creativity-box-two h3 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .credit {
@@ -177,6 +241,7 @@ body {
 }
 .credit-box {
   width:50%;
+  float:left;
 }
 .credit-box-one {
   font-weight: 400;
@@ -197,6 +262,26 @@ body {
 .credit-box-three span:hover{
   border-bottom:2px solid #ffffff ;
 }
+.credit-box-four {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+}
+.credit-box-five {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+}
+.credit-box-six {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+.credit-box-six span:hover{
+  border-bottom:2px solid #ffffff ;
+}
+
+
 .message {}
 .join {}
 
