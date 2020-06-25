@@ -106,6 +106,14 @@ padding-top:10px;
   right: 23px;
   bottom: 23px;
 }
+.stop-btn-box {
+  text-align: center;
+}
+.stop-btn a{
+font-weight: 400;
+font-size: 12px;
+line-height: 17px;
+}
 .stop-img {
   width:15px;
   height:20px;
