@@ -20,12 +20,9 @@ line-height: 14px;
 .menu-wrapper {
 display: inline-block;
 }
-.menu-wrapper img{
+img.menu-icon {
   width:35px;
   height:35px;
-  padding-bottom:25px;
-}
-.menu-icon {
 }
 .menu-box {
 list-style: none;
