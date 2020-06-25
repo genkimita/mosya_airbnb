@@ -9,12 +9,12 @@
 
 html {
   font-weight: normal;
-  width:1495px;
 }
 
 head {}
 
 header {
+position: relative;
 width:100%;
 height:860px;
 background: url(https://raw.githubusercontent.com/genkimita/mosya_airbnb/master/イメージ/68f5f594-985e-48dc-8c82-ec1e090c6b3a.jpg);
@@ -50,8 +50,8 @@ float:left;
 }
 .menu-list:hover {
 color:#ffffff;
-border-bottom:1px solid #ffffff ;
-padding-bottom:34px;
+border-bottom:2px solid #ffffff ;
+padding-bottom:33px;
 }
 .top {
 color:rgba(255, 255, 255,1.0);
@@ -90,6 +90,16 @@ height:60px;
 font-weight: 400;
 font-size: 16px;
 line-height: 22px;
+}
+.stop-btn {
+  border:2px solid #ffffff ;
+  position: absolute;
+  right: 23px;
+  bottom: 23px;
+}
+img.stop-img {
+  width:15px;
+  height:20px;
 }
 
 body {
