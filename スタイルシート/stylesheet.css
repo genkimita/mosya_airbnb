@@ -126,13 +126,14 @@ body {
 }
 .product {}
   .product-wrapper {
+    padding-top:100px;
     text-align: center;
   }
-  .product-wrapper p{
-    font-weight: 400;
-    font-size: 46px;
-    line-height: 52px;
-  }
+.product-wrapper p{
+font-weight: 400;
+font-size: 46px;
+line-height: 52px;
+}
   .product-image {
     text-align: center;
   }
