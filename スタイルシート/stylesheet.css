@@ -56,24 +56,31 @@ padding-bottom:34px;
 color:rgba(255, 255, 255,1.0);
 padding-left:250px;
 }
+p.top-signup {
+  width:500px;
+}
 .top-signup-one {
 font-weight: 800;
 font-size: 46px;
 line-height: 52px;
+padding-bottom:25px;
 }
 .top-signup-two {
 font-weight: 600;
 font-size: 16px;
 line-height: 22px;
+padding-bottom:25px;
 }
 .top-signup-three {
 font-weight: 600;
 font-size: 16px;
 line-height: 22px;
+padding-bottom:5px;
 }
-.top-signup input{
+input.top-signup-form {
 width:450px;
 height:60px;
+padding-bottom:15px;
 }
 .top-signup-four {
 font-weight: 400;
