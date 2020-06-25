@@ -130,12 +130,16 @@ body {
     font-size: 46px;
     line-height: 52px;
   }
-  .product-image {
+  .product-image-boxgate {
   }
   .product-image-box {
     display: inline-block;
     padding-left:8px;
     padding-right:8px;
+  }
+  .product-img-box img{
+    width:396px;
+    height:417px;
   }
   .product-image-content {
     width:265px;
