@@ -134,8 +134,7 @@ body {
   }
   .product-image-box {
     display: inline-block;
-    padding-left:8px;
-    padding-right:8px;
+
   }
   .product-img-box img{
   }
@@ -144,8 +143,8 @@ body {
     height:417px;
   }
   .product-image-content {
-    width:265px;
-    padding-top:20px;
+
+
   }
 
 
