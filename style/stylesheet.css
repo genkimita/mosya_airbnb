@@ -118,9 +118,12 @@ padding-top:10px;
   position: absolute;
   right: 23px;
   bottom: 23px;
+  display: flex;
+  align-items: center;
 }
 .stop-btn-box {
   text-align: center;
+  margin: 0
 }
 .stop-btn a{
 font-weight: 400;
