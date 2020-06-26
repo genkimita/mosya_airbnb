@@ -180,9 +180,10 @@ body {
 
 .athome-box {
   font-size: 0px;
+  text-align: center;
 }
 .athome-box-one,.athome-box-two {
-  float:left;
+  display: inline-block;
 }
 
 img.athome-box-image {
