@@ -171,13 +171,15 @@ body {
 .about {
   width:100%;
 }
-.athome {
-  text-align: center;
+
+.athome-box {
+
 }
 .athome-box-one,.athome-box-two {
   display: inline-block;
 }
-img.athome-box-one {
+
+img.athome-box-image {
   width:630px;
   height:625px;
 }
@@ -185,7 +187,6 @@ img.athome-box-one {
   width:890px;
   height:625px;
   background-color:rgb(72, 72, 72);
-  vertical-align : middle;
 }
 
 
