@@ -122,11 +122,12 @@ padding-top:10px;
   align-items: center;
 }
 .stop-btn-box {
-  text-align: center;
+  display: block;
+  margin-left:auto;
+  margin-left:auto;
   margin: 0
 }
 .stop-btn-text,.stop-img {
-  display: inline-block;
 }
 a.stop-btn-text {
 font-weight: 800;
