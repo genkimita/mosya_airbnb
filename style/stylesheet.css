@@ -159,14 +159,11 @@ body {
 
 .about {
   width:100%;
-  padding: 8px;
 }
 .athome {
-  text-align: center;
 }
 .athome-box {
   display: inline-block;
-  padding: 8px;
 }
 .athome-box-one {
   width:630px;
@@ -182,7 +179,6 @@ body {
 }
 .team-box {
   display: inline-block;
-  padding: 8px;
 }
 .team-box-one {
   width:890px;
@@ -206,7 +202,6 @@ body {
 }
 .creativity-box {
   display: inline-block;
-  padding: 8px;
 }
 .creativity-box-one {
   width:630px;
