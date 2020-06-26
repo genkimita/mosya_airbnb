@@ -57,13 +57,13 @@ padding-top:215px;
 padding-left:250px;
 }
 .top-signup p{
-  width:500px;
 }
 .top-signup-one {
-font-weight: 800;
-font-size: 46px;
-line-height: 52px;
-padding-bottom:25px;
+  width:500px;
+  font-weight: 800;
+  font-size: 46px;
+  line-height: 52px;
+  padding-bottom:25px;
 }
 .top-signup-two {
 font-weight: 600;
