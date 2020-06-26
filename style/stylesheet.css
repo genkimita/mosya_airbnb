@@ -136,15 +136,17 @@ body {
     display: inline-block;
 
   }
-  .product-img-box img{
-  }
-  .product-img {
+  .product-image-box img{
     width:396px;
     height:417px;
   }
-  .product-image-content {
+  .product-image {
 
-
+  }
+  p.product-image-content {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
   }
 
 
