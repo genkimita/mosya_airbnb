@@ -33,6 +33,9 @@ img.menu-icon-img {
   width:35px;
   height:35px;
 }
+.menu-boxgate {
+  padding-top:25px;
+}
 .menu-box {
 list-style: none;
 }
@@ -134,21 +137,26 @@ body {
   .product-wrapper {
     text-align: center;
     padding-top:100px;
+    padding-bottom:25px;
     font-weight: 400;
     font-size: 46px;
     line-height: 52px;
   }
   .product-image-boxgate {
     text-align: center;
+    padding-bottom:80px;
   }
   .product-image-box {
     display: inline-block;
+    padding-left:4px;
+    padding-right:4px;
   }
   img.product-image{
     width:395px;
     height:415px;
   }
   .product-image {
+    padding-bottom:10px;
   }
   p.product-image-content {
     font-weight: 400;
