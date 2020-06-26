@@ -172,19 +172,23 @@ body {
   width:100%;
 }
 .athome {
+  text-align: center;
 }
-.athome-box {
+.athome-box-one,.athome-box-two {
   display: inline-block;
 }
-.athome-box-one {
+img.athome-box-one {
   width:630px;
   height:625px;
 }
 .athome-box-two {
   width:890px;
   height:625px;
-  background-color:rgb(235, 235, 235);
+  background-color:rgb(72, 72, 72);
+  vertical-align : middle;
 }
+
+
 .team {
 
 }
