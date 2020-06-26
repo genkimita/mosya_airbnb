@@ -125,10 +125,13 @@ padding-top:10px;
   text-align: center;
   margin: 0
 }
-.stop-btn a{
-font-weight: 400;
-font-size: 12px;
-line-height: 17px;
+.stop-btn-text,.stop-img {
+  display: inline-block;
+}
+a.stop-btn-text {
+font-weight: 800;
+font-size: 16px;
+line-height: 24px;
 }
 .stop-img {
   width:15px;
@@ -179,7 +182,7 @@ body {
   font-size: 0px;
 }
 .athome-box-one,.athome-box-two {
-  display: inline-block;
+  float:left;
 }
 
 img.athome-box-image {
