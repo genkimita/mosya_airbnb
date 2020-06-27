@@ -191,6 +191,8 @@ width:100%;
 .athome-box-two {
   width:55%;
   background-color:rgb(235, 235, 235);
+  display: table-cell;
+vertical-align: middle;
 }
 .athome-box-text h1{
   font-weight: 400;
