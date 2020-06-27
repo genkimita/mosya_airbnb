@@ -184,7 +184,7 @@ body {
 .athome-boxgate {
   font-size: 0px;
 }
-.athome-box img{
+img.athome-box-image {
   width:675px;
   height:625px;
 }
