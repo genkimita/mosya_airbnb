@@ -178,16 +178,14 @@ body {
   width:100%;
 }
 .athome {
-  width:100%;
 }
 
 .athome-box {
   text-align: center;
 }
-.athome-box-one,.athome-box-two {
+.athome-box-one.athome-box-two {
   display: inline-block;
 }
-
 img.athome-box-image {
   width:630px;
   height:625px;
