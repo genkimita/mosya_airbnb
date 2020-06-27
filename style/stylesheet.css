@@ -197,7 +197,7 @@ img.athome-box-image {
   height:625px;
   background-color:rgb(235, 235, 235);
 }
-h1.athome-box-two {
+.athome-box-two h1{
   font-weight: 400;
   font-size: 46px;
   line-height: 52px;
