@@ -178,14 +178,17 @@ body {
 .athome {
   width:100%;
 }
-.athome-box-one,.athome-box-two {
+.athome-box {
   display: inline-block;
 }
-.athome-box-one {
+.athome-boxgate {
+  font-size: 0px;
+}
+.athome-box img{
   width:675px;
   height:625px;
 }
-.athome-box-two {
+.athome-box-text {
   width:955px;
   height:625px;
   background-color:rgb(235, 235, 235);
@@ -208,7 +211,7 @@ body {
   line-height: 22px;
   color:#008489;
 }
-.athome-box-text h3:hover {
+.athome-box-text span:hover {
   border-bottom:1px solid #008489 ;
 }
 
