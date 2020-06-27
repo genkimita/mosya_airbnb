@@ -180,17 +180,17 @@ body {
 }
 .athome-boxgate {
 text-align: center;
+width:100%;
 }
-.athome-box {
+.athome-box-one,.athome-box-two {
   display: inline-block;
 }
-img.athome-box-image {
-  width:630px;
+.athome-box-one {
+  width:40%;
   height:625px;
 }
-.athome-box-text {
-  width:890px;
-  height:625px;
+.athome-box-two {
+  width:55%;
   background-color:rgb(235, 235, 235);
 }
 .athome-box-text h1{
