@@ -183,35 +183,35 @@ body {
 .athome-boxgate {
 
 }
-.athome-box-one,.athome-box-two {
+.athome-box {
   display: inline-block;
 }
 img.athome-box-image {
   width:630px;
   height:625px;
 }
-.athome-box-two {
+.athome-box-text {
   width:890px;
   height:625px;
   background-color:rgb(235, 235, 235);
 }
-.athome-box-two h1{
+.athome-box-text h1{
   font-weight: 400;
   font-size: 46px;
   line-height: 52px;
 }
-.athome-box-two h2{
+.athome-box-text h2{
   font-weight: 400;
   font-size: 18px;
   line-height: 26px;
 }
-.athome-box-two h3{
+.athome-box-text h3{
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
   color:#008489;
 }
-.athome-box-two h3:hover {
+.athome-box-text h3:hover {
   border-bottom:1px solid #008489 ;
 }
 
