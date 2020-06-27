@@ -178,21 +178,19 @@ body {
 .athome {
   width:100%;
 }
-.athome-boxgate {
-text-align: center;
-width:100%;
-}
 .athome-box-one,.athome-box-two {
   display: inline-block;
 }
 .athome-box-one {
-  width:40%;
+  width:675px;
+  height:625px;
 }
 .athome-box-two {
-  width:55%;
+  width:955px;
+  height:625px;
   background-color:rgb(235, 235, 235);
   display: table-cell;
-vertical-align: middle;
+  vertical-align: middle;
 }
 .athome-box-text h1{
   font-weight: 400;
