@@ -180,11 +180,14 @@ body {
 div.athome-box-one,div.athome-box-two  {
   display: inline-block;
 }
+.athome-box-one {
+  width:33%;
+}
 .athome-box-one img{
   object-fit: cover;
 }
 .athome-box-two {
-  width:60%;
+  width:66%;
   background-color:rgb(235, 235, 235);
   display: table-cell;
   vertical-align: middle;
