@@ -183,13 +183,13 @@ body {
   font-size: 0px;
 }
 .athome-box-one,.athome-box-two  {
-  display: inline-block;
+  float:left;
 }
 .athome-box-one {
   width:40%;
 }
 .athome-box-two {
-  width:57%;
+  width:60%;
   background-color:rgb(235, 235, 235);
   display: table-cell;
   vertical-align: middle;
