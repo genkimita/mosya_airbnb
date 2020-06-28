@@ -165,7 +165,8 @@ body {
     padding-bottom:10px;
   }
   .product-image img{
-
+    width:427px;
+    height:417px;
   }
   .product-image-box p {
     font-weight: 400;
