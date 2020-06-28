@@ -135,8 +135,7 @@ line-height: 24px;
   height:20px;
 }
 
-body {
-}
+product {}
 .product {
   width:100%;
 }
@@ -172,34 +171,28 @@ body {
     line-height: 26px;
   }
 
-
-.athome {
+introduction {
+  width:100%;
 }
-
+.athome  {
+}
 .athome-boxgate {
-  font-size: 0px;
 }
-div.athome-box-one,div.athome-box-two  {
-  display: inline-block;
+.athome-box  {
+  float:left;
 }
 .athome-box-one {
-  width:33%;
-}
-.athome-box-image {
   width:677px;
   height:625px;
 }
-.athome-box-one img{
-  object-fit: cover;
+.athome-box img{
+}
+.athome-box-image {
 }
 .athome-box-two {
-  width:66%;
+  width:955px;
   height:625px;
   background-color:rgb(235, 235, 235);
-  display: table-cell;
-  vertical-align: middle;
-}
-.athome-box-text {
 }
 .athome-box-text h1{
   font-weight: 400;
