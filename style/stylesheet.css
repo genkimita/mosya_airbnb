@@ -159,7 +159,6 @@ body {
   }
   .product-image   {
     width:26%;
-    object-fit: fill;
     padding-bottom:10px;
   }
   .product-image img{
