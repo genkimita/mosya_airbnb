@@ -158,10 +158,10 @@ body {
     display: inline-block;
     padding-left:4px;
     padding-right:4px;
-  }
-  .product-image {
     width:25%;
     height:50%;
+  }
+  .product-image {
     padding-bottom:10px;
   }
   .product-image img{
