@@ -179,11 +179,11 @@ body {
 .athome-boxgate {
   font-size: 0px;
 }
-.athome-box-one,.athome-box-two  {
+div.athome-box-one,div.athome-box-two  {
   float:left;
 }
 .athome-box-one img{
-  width:40%;
+  object-fit: cover;
 }
 .athome-box-two {
   width:60%;
