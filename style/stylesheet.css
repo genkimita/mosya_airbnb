@@ -162,11 +162,11 @@ body {
   }
   .product-image-box img{
     object-fit: fill;
-  }
-  .product-image {
     padding-bottom:10px;
   }
-  p.product-image-content {
+  .product-image {
+  }
+  .product-image-box p {
     font-weight: 400;
     font-size: 18px;
     line-height: 26px;
