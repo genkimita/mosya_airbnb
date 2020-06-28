@@ -182,7 +182,7 @@ body {
 .athome-box-one,.athome-box-two  {
   float:left;
 }
-.athome-box-one {
+.athome-box-one img{
   width:40%;
 }
 .athome-box-two {
