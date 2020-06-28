@@ -161,6 +161,7 @@ body {
     padding-right:4px;
   }
   img.product-image{
+    object-fit: fill;
   }
   .product-image {
     padding-bottom:10px;
