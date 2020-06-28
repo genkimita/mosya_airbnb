@@ -160,11 +160,11 @@ body {
     padding-left:4px;
     padding-right:4px;
   }
-  .product-image-box img{
-    object-fit: fill;
+  .product-image {
     padding-bottom:10px;
   }
-  .product-image {
+  .product-image img{
+    object-fit: fill;
   }
   .product-image-box p {
     font-weight: 400;
