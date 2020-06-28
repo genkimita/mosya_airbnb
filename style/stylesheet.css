@@ -175,13 +175,15 @@ body {
 
 .athome {
   width:100%;
+
 }
-.athome-box-one,.athome-box-two  {
-  display: inline-block;
-}
+
 .athome-boxgate {
   width:100%;
   font-size: 0px;
+}
+.athome-box-one,.athome-box-two  {
+  display: inline-block;
 }
 .athome-box-one {
   width:40%;
