@@ -156,12 +156,11 @@ body {
   }
   .product-image-box {
     display: inline-block;
+    width:25%;
     padding-left:4px;
     padding-right:4px;
   }
   img.product-image{
-    width:25%;
-
   }
   .product-image {
     padding-bottom:10px;
