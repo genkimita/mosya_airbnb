@@ -185,11 +185,16 @@ div.athome-box-one,div.athome-box-two  {
 .athome-box-one {
   width:33%;
 }
+.athome-box-image {
+  width:677px;
+  height:625px;
+}
 .athome-box-one img{
   object-fit: cover;
 }
 .athome-box-two {
   width:66%;
+  height:625px;
   background-color:rgb(235, 235, 235);
   display: table-cell;
   vertical-align: middle;
