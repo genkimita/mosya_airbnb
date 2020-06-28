@@ -160,10 +160,11 @@ body {
     padding-right:4px;
   }
   .product-image {
+    width:25%;
     padding-bottom:10px;
   }
   .product-image img{
-   width:25%;
+
   }
   .product-image-box p {
     font-weight: 400;
