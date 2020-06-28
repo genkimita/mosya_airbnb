@@ -159,12 +159,13 @@ body {
     padding-right:4px;
   }
   .product-image   {
-    width:auto;
-    height:100%;
+
     padding-bottom:10px;
   }
   .product-image img{
     object-fit: cover;
+    width:auto;
+    height:100%;
   }
   .product-image-box p {
     font-weight: 400;
