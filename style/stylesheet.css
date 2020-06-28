@@ -154,17 +154,18 @@ body {
   }
   .product-image-box {
     display: inline-block;
-    width:25%;
     padding-left:4px;
     padding-right:4px;
   }
   .product-image   {
+    width:25%;
+    height:50%;
     padding-bottom:10px;
   }
   .product-image img{
-
-    width:648px;
-    height:432px;
+    object-fit: fill;
+    width:47px;
+    height:38px;
   }
   .product-image-box p {
     font-weight: 400;
