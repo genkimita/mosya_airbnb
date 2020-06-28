@@ -165,8 +165,8 @@ body {
     padding-bottom:10px;
   }
   .product-image img{
-    width:auto;
-    height:auto;
+    object-fit: fill;
+
   }
   .product-image-box p {
     font-weight: 400;
