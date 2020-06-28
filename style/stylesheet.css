@@ -185,11 +185,9 @@ body {
 }
 .athome-box-one {
   width:40%;
-  height:76%;
 }
 .athome-box-two {
   width:57%;
-  height:76%;
   background-color:rgb(235, 235, 235);
   display: table-cell;
   vertical-align: middle;
