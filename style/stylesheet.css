@@ -121,9 +121,7 @@ padding-top:10px;
 }
 .stop-btn-box {
   display: block;
-  margin-left:auto;
-  margin-left:auto;
-  margin: 0
+  text-align: center;
 }
 .stop-btn-text,.stop-img {
 }
