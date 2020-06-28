@@ -176,22 +176,25 @@ body {
 .athome {
   width:100%;
 }
-.athome-box {
+.athome-box-one,.athome-box-two  {
   display: inline-block;
 }
 .athome-boxgate {
+  width:100%;
   font-size: 0px;
 }
-.athome-box img{
-  width:675px;
-  height:625px;
+.athome-box-one {
+  width:40%;
+  height:76%;
 }
-.athome-box-text {
-  width:955px;
-  height:625px;
+.athome-box-two {
+  width:57%;
+  height:76%;
   background-color:rgb(235, 235, 235);
   display: table-cell;
   vertical-align: middle;
+}
+.athome-box-text {
 }
 .athome-box-text h1{
   font-weight: 400;
