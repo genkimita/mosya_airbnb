@@ -215,14 +215,10 @@ introduction {
 }
 
 
-
-
 .team {
-  width:100%;
 }
 .team-box {
-  display: inline-block;
-  display: flex;
+
   align-items: center;
 }
 .team-boxgate {
