@@ -159,6 +159,8 @@ body {
     padding-right:4px;
   }
   .product-image   {
+    width:427px;
+    height:417px;
     padding-bottom:10px;
   }
   .product-image img{
