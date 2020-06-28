@@ -158,12 +158,11 @@ product {}
     padding-right:4px;
   }
   .product-image   {
-    width:427px;
-    height:417px;
     padding-bottom:10px;
   }
   .product-image img{
-    object-fit: cover;
+    width:427px;
+    height:417px;
   }
   .product-image-box p {
     font-weight: 400;
