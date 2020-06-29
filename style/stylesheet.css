@@ -391,6 +391,7 @@ join {
   background-color:rgb(235, 235, 235);
   color:rgb(72, 72, 72);
   display:table;
+  text-align: center;
 }
 .join-box-gate {
   display: table-cell;
