@@ -284,6 +284,7 @@ credit {
 }
 .credit-box-gate {
   list-style: none;
+  text-align: center;
 }
 .credit-box-one {
   font-weight: 400;
