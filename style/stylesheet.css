@@ -362,6 +362,9 @@ img.message-box-image {
   display: table-cell;
   vertical-align: middle;
 }
+.message-box-list li{
+  text-align: center;
+}
 .message-box-li1 {
   font-weight: 400;
   font-size: 24px;
