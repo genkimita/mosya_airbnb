@@ -173,11 +173,10 @@ product {}
 .athome  {
   width:100%;
 }
-.athome-boxgate {
-  margin:0 auto;
+.athome-boxgate  {
 }
 .athome-box  {
-  display: inline-block;
+  display: flex;
 }
 .athome-box img{
   width:677px;
