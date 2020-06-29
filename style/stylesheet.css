@@ -174,9 +174,11 @@ product {}
   width:100%;
 }
 .athome-boxgate  {
+  display: flex;
 }
 .athome-box  {
-  display: flex;
+  width:50%;
+  flex: auto;
 }
 .athome-box img{
   width:677px;
