@@ -275,7 +275,6 @@ credit {
   width:100%;
   background-color:rgb(3, 107, 112);
   color:#ffffff;
-  text-align: center;
   padding-top:70px;
   padding-bottom:65px;
 }
@@ -285,7 +284,6 @@ credit {
 }
 .credit-box-gate {
   list-style: none;
-
 }
 .credit-box-one {
   font-weight: 400;
