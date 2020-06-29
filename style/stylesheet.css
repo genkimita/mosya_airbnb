@@ -177,7 +177,7 @@ product {}
   display: flex;
 }
 .athome-box  {
-
+padding: 7px;
 }
 .athome-box img{
   width:677px;
