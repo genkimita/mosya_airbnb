@@ -345,6 +345,7 @@ message {
 .message-box {
   padding-left:43px;
   padding-right:43px;
+  margin: 0 auto;
 }
 img.message-box-image {
   width:597px;
@@ -355,21 +356,26 @@ img.message-box-image {
   height:624px;
   background-color:rgb(235, 235, 235);
   color:rgb(72, 72, 72);
-  list-style: none;
+  display: table;
 }
-.message-box-one {
+.message-box-list {
+  list-style: none;
+  display: table-cell;
+  vertical-align: middle;
+}
+.message-box-li1 {
   font-weight: 400;
   font-size: 24px;
   line-height: 48px;
   padding-bottom:40px;
 }
-.message-box-two {
+.message-box-li2 {
   font-weight: 600;
   font-size: 16px;
   line-height: 22px;
   padding-bottom:5px;
 }
-.message-box-three {
+.message-box-li3 {
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
