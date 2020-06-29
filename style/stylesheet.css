@@ -276,6 +276,8 @@ credit {
   background-color:rgb(3, 107, 112);
   color:#ffffff;
   text-align: center;
+  padding-top:70px;
+  padding-bottom:65px;
 }
 .credit-box {
   width:50%;
