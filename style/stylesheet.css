@@ -339,8 +339,12 @@ message {
 }
 .message {
   display: flex;
+  padding-top:100px;
+  padding-bottom:100px;
 }
 .message-box {
+  padding-left:43px;
+  padding-right:43px;
 }
 img.message-box-image {
   width:597px;
@@ -374,10 +378,10 @@ img.message-box-image {
 join {
 }
 .join {
-  text-align: center;
   width:100%;
   background-color:rgb(235, 235, 235);
   color:rgb(72, 72, 72);
+  text-align: center;
 }
 .join-box-one {
   font-weight: 400;
@@ -389,9 +393,9 @@ join {
   font-size: 16px;
   line-height: 22px;
 }
-.join-box-three {
-  border-bottom:1px solid rgb(235, 235, 235) ;
-  padding-bottom:48px;
+input.join-box-three {
+  width:450px;
+  height:60px;
 }
 .join-box-four {
   font-weight: 600;
