@@ -365,7 +365,10 @@ join {
   font-size: 16px;
   line-height: 22px;
 }
-.join-box-three {}
+.join-box-three {
+  border-bottom:1px solid rgb(235, 235, 235) ;
+  padding-bottom:48px;
+}
 .join-box-four {
   font-weight: 600;
   font-size: 16px;
@@ -387,9 +390,8 @@ join {
 }
 
 
+footer {
 
-
-
-footer {}
+}
 .address {}
 .copyright {}
