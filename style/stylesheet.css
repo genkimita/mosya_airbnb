@@ -391,7 +391,71 @@ join {
 
 
 footer {
+  width:100%;
+}
+.footer-info-box-gate {
+  border-bottom:1px solid rgb(221, 221, 221) ;
+  padding-bottom:50px;
+}
+.footer-info-box {
+  width:20%;
+  list-style: none;
+  display: inline-block;
+}
+.footer-info-box-one {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 17px;
+  color:rgb(34, 35, 35);
+}
+.footer-info-box-two {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color:rgb(84, 84, 84);
+}
+.footer-info-box-two:hover {
+  border-bottom:1px solid rgb(84, 84, 84) ;
+}
+
+.footer-copyright-box-gate {
 
 }
+.footer-copyright-box {
+  width:50%;
+  display: inline-block;
+}
+.footer-copyright-box-one {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+.footer-copyright-box-two {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+.footer-copyright-box-three {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+.footer-copyright-box-four {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .address {}
 .copyright {}
