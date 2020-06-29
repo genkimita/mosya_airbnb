@@ -443,7 +443,6 @@ footer {
   display: flex;
 }
 .footer-info-box {
-  width:20%;
   list-style: none;
   flex: auto;
 }
@@ -470,6 +469,7 @@ footer {
 
 
 .footer-copyright-box-gate {
+  width:100%;
   text-align: center;
   display: flex;
 }
