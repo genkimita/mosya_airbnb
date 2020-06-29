@@ -338,23 +338,19 @@ message {
   width:100%;
 }
 .message {
-  padding-top:100px;
-  padding-bottom:100px;
+  display: flex;
 }
 .message-box {
-  display: inline-block;
 }
-.message-box img{
+img.message-box-image {
   width:597px;
   height:624px;
 }
-.message-box-text {
+.message-box-gate {
   width:663px;
   height:624px;
   background-color:rgb(235, 235, 235);
   color:rgb(72, 72, 72);
-}
-.message-box-gate {
   list-style: none;
 }
 .message-box-one {
