@@ -266,12 +266,14 @@ padding: 7px;
   width:957px;
   height:625px;
   background-color:rgb(235, 235, 235);
-  flex-direction: column;
 }
 .creativity-box-two-ul1 {
-  margin:0 auto;
  text-align: left;
  list-style: none;
+ flex-direction: column;
+}
+.creativity-box-two-ul1 li{
+  margin:0 auto;
 }
 .creativity-box-li1 {
   font-weight: 400;
