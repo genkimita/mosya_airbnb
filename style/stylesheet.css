@@ -214,10 +214,13 @@ product {}
 
 
 .team {
-  display: block;
+  width:100%;
 }
 .team-box {
   display: inline-block;
+}
+.team-box-gate {
+  margin:0 auto;
 }
 .team-box-one {
   width:890px;
@@ -226,9 +229,6 @@ product {}
   color:#ffffff;
 }
 .team-box-list {
-  margin-left: auto;
-  margin-right: auto;
-  margin: 0
 }
 .team-box-two {
 }
