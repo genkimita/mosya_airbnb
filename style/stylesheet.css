@@ -179,15 +179,13 @@ product {}
 .athome-box  {
   display: inline-block;
 }
-.athome-box-one {
-}
 .athome-box img{
   width:677px;
   height:625px;
 }
 .athome-box-image {
 }
-.athome-box-two {
+.athome-box-text {
   width:955px;
   height:625px;
   background-color:rgb(235, 235, 235);
