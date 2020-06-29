@@ -153,7 +153,6 @@ product {}
   }
   .product-image-box {
     display: inline-block;
-    width:25%;
     padding-left:4px;
     padding-right:4px;
   }
@@ -270,17 +269,21 @@ introduction {
   line-height: 22px;
 }
 
-.credit {
+credit {
   width:100%;
+}
+.credit {
   background-color:rgb(3, 107, 112);
   color:#ffffff;
-}
-.credit-boxgate {
   text-align: center;
 }
 .credit-box {
   width:50%;
-  float:left;
+  display: inline-block;
+}
+.credit-box-gate {
+  list-style: none;
+
 }
 .credit-box-one {
   font-weight: 400;
@@ -301,25 +304,6 @@ introduction {
 .credit-box-three span:hover{
   border-bottom:2px solid #ffffff ;
 }
-.credit-box-four {
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 36px;
-}
-.credit-box-five {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 26px;
-}
-.credit-box-six {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 22px;
-}
-.credit-box-six span:hover{
-  border-bottom:2px solid #ffffff ;
-}
-
 
 .message {}
 .join {}
