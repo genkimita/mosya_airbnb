@@ -348,12 +348,12 @@ message {
 }
 
 join {
-  width:100%;
-  background-color:rgb(235, 235, 235);
-  color:rgb(72, 72, 72);
 }
 .join {
   text-align: center;
+  width:100%;
+  background-color:rgb(235, 235, 235);
+  color:rgb(72, 72, 72);
 }
 .join-box-one {
   font-weight: 400;
