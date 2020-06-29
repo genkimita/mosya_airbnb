@@ -450,12 +450,14 @@ footer {
   font-size: 12px;
   line-height: 17px;
   color:rgb(34, 35, 35);
+  padding-bottom:20px;
 }
 .footer-info-box-two {
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
   color:rgb(84, 84, 84);
+  padding-bottom:20px;
 }
 .footer-info-box-two:hover {
   border-bottom:1px solid rgb(84, 84, 84) ;
