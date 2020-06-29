@@ -434,16 +434,18 @@ input.join-box-three {
 
 footer {
   width:100%;
+
 }
 .footer-info-box-gate {
   border-bottom:1px solid rgb(221, 221, 221) ;
   padding-bottom:50px;
   text-align: center;
+  display: flex;
 }
 .footer-info-box {
   width:20%;
   list-style: none;
-  display: inline-block;
+  flex: auto;
 }
 .footer-info-box-one {
   font-weight: 700;
