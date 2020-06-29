@@ -214,11 +214,11 @@ padding: 7px;
 .team {
   width:100%;
 }
-.team-box {
-  display: inline-block;
-}
 .team-box-gate {
-  margin:0 auto;
+  display: flex;
+}
+.team-box {
+  padding: 7px;
 }
 .team-box-one {
   width:890px;
@@ -238,8 +238,11 @@ padding: 7px;
 .creativity {
   display: block;
 }
+.creativity-box-gate {
+  display: flex;
+}
 .creativity-box {
-  display: inline-block;
+  padding: 7px;
 }
 .creativity-box-one {
   width:630px;
