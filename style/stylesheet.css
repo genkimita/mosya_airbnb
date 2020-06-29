@@ -173,11 +173,12 @@ introduction {
   width:100%;
 }
 .athome  {
+  display: block;
 }
 .athome-boxgate {
 }
 .athome-box  {
-  float:left;
+  display: inline-block;
 }
 .athome-box-one {
 }
@@ -214,6 +215,7 @@ introduction {
 
 
 .team {
+  display: block;
 }
 .team-box {
   align-items: center;
@@ -232,7 +234,7 @@ introduction {
   height:625px;
 }
 .creativity {
-
+  display: block;
 }
 .creativity-box {
   display: inline-block;
