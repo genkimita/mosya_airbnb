@@ -305,7 +305,48 @@ credit {
   border-bottom:2px solid #ffffff ;
 }
 
-.message {}
+
+message {
+  width:100%;
+}
+.message {
+  padding-top:100px;
+  padding-bottom:100px;
+}
+.message-box {
+  display: inline-block;
+}
+.message-box img{
+  width:597px;
+  height:624px;
+}
+.message-box-text {
+  width:663px;
+  height:624px;
+  background-color:rgb(235, 235, 235);
+  color:rgb(72, 72, 72);
+}
+.message-box-gate {
+  list-style: none;
+}
+.message-box-one {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 48px;
+  padding-bottom:40px;
+}
+.message-box-two {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  padding-bottom:5px;
+}
+.message-box-three {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
 .join {}
 
 footer {}
