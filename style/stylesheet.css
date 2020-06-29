@@ -172,9 +172,9 @@ product {}
 
 .athome  {
   width:100%;
-  display: block;
 }
 .athome-boxgate {
+  margin:0 auto;
 }
 .athome-box  {
   display: inline-block;
