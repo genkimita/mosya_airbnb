@@ -1,215 +1,456 @@
-<!DOCTYPE html>
-<html>
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-weight: normal;
+}
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>模写＠出張 – Airbnb</title>
-  <link rel="stylesheet" href="style/stylesheet.css" type="text/css">
-  <link rel="stylesheet" href="responsive.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+html {}
 
-<header>
-  <div class="menu">
-    <div class="menu-icon">
-      <img class="menu-icon-img" src="https://raw.githubusercontent.com/genkimita/mosya_airbnb/master/image/Airbnb_icon-icons.com_66791.png" alt="Airbnb" href="#">
-    </div>
-    <div class="menu-boxgate">
-      <ul class="menu-box">
-        <p class="menu-list">🌐日本語 (JP)</p>
-        <p class="menu-list">¥ JPY</p>
-        <p class="menu-list">ホストをはじめる</p>
-        <p class="menu-list">ヘルプ</p>
-        <p class="menu-list">登録する</p>
-        <p class="menu-list">ログイン</p>
-      </ul>
-    </div>
-  </div>
+head {}
 
-  <div class="top">
-    <div class="top-signup">
-      <h1 class="top-signup-one">世界の果てまで、アットホーム</h1>
-      <h2 class="top-signup-two"><span href="#">Airbnbビジネスプログラムの動画を見る</span> ▶︎</h2>
-      <h3 class="top-signup-three">まずは仕事用メールアドレスの入力から</h3>
-      <input class="top-signup-form">
-      <h4 class="top-signup-four">出張管理をご担当ですか？　<span href="#">もっと詳しく</span> ></h4>
-    </div>
-  </div>
+header {
+position: relative;
+width:100%;
+height:860px;
+background: url(https://raw.githubusercontent.com/genkimita/mosya_airbnb/master/image/68f5f594-985e-48dc-8c82-ec1e090c6b3a.jpg);
+background-size: cover;
+}
+.menu {
+  display: flex;
+}
+.menu-icon,.menu-boxgate {
+  display: inline-block;
+}
+.menu-icon {
+  margin-right: auto;
+  padding-top:25px;
+  padding-left:25px;
+}
+img.menu-icon-img {
+  width:35px;
+  height:35px;
+}
+.menu-boxgate {
+  padding-top:25px;
+}
+.menu-box {
+list-style: none;
+}
+.menu-box p{
+color:#ffffff;
+}
+.menu-list {
+  display: inline-block;
+  color:#ffffff;
+  padding-bottom:35px;
+  padding-left:15px;
+  padding-right:15px;
+}
+.menu-list:hover {
+color:#ffffff;
+border-bottom:2px solid #ffffff ;
+padding-bottom:33px;
+}
+.top {
+  width:100%;
+  color:rgba(255, 255, 255,1.0);
+  padding-top:215px;
+  padding-left:250px;
+}
+.top-signup  {
+}
+h1.top-signup-one {
+  width:500px;
+  font-weight: 800;
+  font-size: 46px;
+  line-height: 52px;
+}
+.top-signup-one {
+  padding-bottom:25px;
+}
+h2.top-signup-two {
+  width:500px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+}
+.top-signup-two  {
+padding-bottom:25px;
+}
+.top-signup-two span:hover{
+  border-bottom:1px solid #ffffff ;
+}
+h3.top-signup-three {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+}
+.top-signup-three {
+  width:500px;
+  padding-bottom:5px;
+}
+.top-signup-form {
+}
+input.top-signup-form {
+  width:450px;
+  height:55px;
+}
+h4.top-signup-four {
+  width:500px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+.top-signup-four {
+padding-top:10px;
+}
+.top-signup-four span:hover{
+  border-bottom:1px solid #ffffff ;
+}
+.stop-btn {
+  color:#ffffff;
+  border:2px solid #ffffff ;
+  width:110px;
+  height:50px;
+  position: absolute;
+  right: 23px;
+  bottom: 23px;
+  display: flex;
+  align-items: center;
+}
+.stop-btn-box {
+  display: block;
+  text-align: center;
+}
+.stop-btn-text,.stop-img {
+}
+a.stop-btn-text {
+font-weight: 800;
+font-size: 16px;
+line-height: 24px;
+}
+.stop-img {
+  width:15px;
+  height:20px;
+}
 
-  <div class="stop-btn">
-    <div class="stop-btn-box">
-      <a class="stop-btn-text">停止</a><img class="stop-img" src="image/iconDownload.cgi.png" alt="icon" href="">
-    </div>
-  </div>
-</header>
-
-<product>
-  <div class="product">
-    <p class="product-wrapper">最高の仕事に必要なものすべてを完備</p>
-    <div class="product-image-boxgate">
-      <div class="product-image-box">
-        <div  class="product-image">
-           <img src="image/top_rated_homes.594e0eb1.jpg" alt="デザイナーズホテル" href="">
-        </div>
-        <p class="product-image-content">高評価の宿泊先＆デザイナーズホテル</p>
-      </div>
-      <div class="product-image-box">
-        <div  class="product-image">
-           <img  src="image/team_building_experiences.3f19ab77.jpg" alt="チームビルディング" href="">
-        </div>
-        <p class="product-image-content">チームビルディング体験</p>
-      </div>
-      <div class="product-image-box">
-        <div class="product-image">
-          <img src="image/collaborate.57a5ee7e.jpg" alt="コラボスペース" href="">
-        </div>
-        <p class="product-image-content">コラボを育むスペース</p>
-      </div>
-    </div>
-  </div>
-</product>
-
-  <div class="athome">
-    <div class="athome-boxgate">
-        <div class="athome-box athome-box-one">
-          <img class="athome-box-image" src="image/comfort_home.59ad50c8.jpg" alt="athome">
-        </div>
-        <div class="athome-box athome-box-two">
-          <div class="athome-box-text">
-            <h1>出張先でも、アットホーム</h1>
-            <h2>出張のときも、新天地に異動のときも安心。他の出張者が5つ星評価をつけたお部屋やデザイナーズホテルを探しましょう。</h2>
-            <h3><span>仕事用スペースを完備した宿泊先を検索</span> ></h3>
-          </div>
-        </div>
-      </div>
-   </div>
-
-    <div class="team">
-      <div class="team-box team-box-one">
-        <ul class="team-box-list">
-          <li class="team-box-one">チームの心をひとつに</li>
-          <li class="team-box-two">ラーメン作り教室やカヌーレッスンに参加。普段オフィスでは目にできない同僚たちの意外な面に触れ、深いレベルでつながれます。</li>
-          <li class="team-box-three">Airbnbの「体験」を検索 ></li>
-        </ul>
-      </div>
-      <div class="team-box team-box-two">
-        <img class="team-box-image" src="image/team_building_made_easy.c9d2a84f.jpg" alt="team" href="">
-      </div>
-    </div>
-
-    <div class="creativity">
-      <div class="creativity-box">
-        <img class="creativity-box-one" src="image/creativity.739950af.jpg" alt="creativity" href="">
-      </div>
-      <div class="creativity-box">
-        <div class="creativity-box-two">
-          <h1>創造力をかきたてるスペース</h1>
-          <h2>煮詰まったら1日オフサイトで気分を変えてみませんか？ひらめきが湧く環境で、チームの生産性を高めましょう。</h2>
-          <h3>Wi-Fi完備の宿泊先を見る</h3>
-        </div>
-      </div>
-    </div>
-
-<credit>
-  <div class="credit">
-    <div class="credit-box">
-      <ul class="credit-box-gate">
-        <li class="credit-box-one">安全第一のシステム</li>
-        <li class="credit-box-two">セキュアな支払いシステムから経験者のレビューまで、Airbnbは安全中心のシステムです。</li>
-        <li class="credit-box-three"><span>もっと詳しく</span> ></li>
-      </ul>
-    </div>
-    <div class="credit-box">
-      <ul class="credit-box-gate">
-        <li class="credit-box-one">グローバルカスタマーサポート</li>
-        <li class="credit-box-two">専門スタッフが、年中無休で営業時間内に11言語でサポートいたします。</li>
-        <li class="credit-box-three"><span>もっと詳しく</span> ></li>
-      </ul>
-    </div>
-  </div>
-</credit>
-
-<message>
-<div class="message">
-    <div class="message-box">
-      <img class="message-box-image" src="image/quote_image.c1dba850.jpg" alt="メッセージ" href="">
-    </div>
-    <div class="message-box message-box-text">
-      <ul class="message-box-gate">
-        <li class="message-box-one">「Airbnbは自活できるのがいいですね。毎晩外食しなくても、みんなで好きなものを料理できるし、とても出張とは思えないほど現地に根を下ろせます」</li>
-        <li class="message-box-two">MARTA KUTT様</li>
-        <li class="message-box-three">Transferwise社マネジャー</li>
-      </ul>
-    </div>
-</div>
-</message>
-
-<join>
-  <div class="join">
-    <div class="join-box-one">働き方を変えたいなら、Airbnbです</div>
-    <div class="join-box-two">まずは仕事用メールアドレスの入力から</div>
-    <input class="join-box-three">
-    <div class="join-box-four">出張管理をご担当ですか？</div>
-    <div class="join-box-five">こんなにある、Airbnbビジネスプログラム法人企業様のメリット。</div>
-    <div class="join-box-six"><span>もっと詳しく</span>　></div>
-  </div>
-</join>
-
-<footer>
-  <div class="footer-info-box-gate">
-    <ul class="footer-info-box footer-info-box-company">
-      <li class="footer-info-box-one">企業情報</li>
-      <li class="footer-info-box-two">Airbnbご利用の流れ</li>
-      <li class="footer-info-box-two">ダイバーシティ＆ビロンギング</li>
-      <li class="footer-info-box-two">アクセシビリティ対応</li>
-      <li class="footer-info-box-two">信頼＆安全</li>
-      <li class="footer-info-box-two">Airbnb Citizen</li>
-      <li class="footer-info-box-two">オリンピック</li>
-      <li class="footer-info-box-two">ニュースルーム</li>
-    </ul>
-    <ul class="footer-info-box footer-info-box-community">
-      <li class="footer-info-box-one">コミュニティ</li>
-      <li class="footer-info-box-two">Airbnb Magazine</li>
-      <li class="footer-info-boxy-two">Airbnbアソシエイト</li>
-      <li class="footer-info-box-two">Airbnbビジネスプログラム</li>
-      <li class="footer-info-box-two">お友達を招待</li>
-      <li class="footer-info-box-two">採用情報</li>
-    </ul>
-    <ul class="footer-info-box footer-info-box-host">
-      <li class="footer-info-box-one">ホスト</li>
-      <li class="footer-info-box-two">お部屋を掲載</li>
-      <li class="footer-info-box-two">オンライン体験をホスティングしよう</li>
-      <li class="footer-info-box-two">CEOブライアン・チェスキーからのメッセージ</li>
-      <li class="footer-info-box-two">責任あるホスティング</li>
-      <li class="footer-info-box-two">オープンホーム</li>
-      <li class="footer-info-box-two">リソースセンター</li>
-      <li class="footer-info-box-two">コミュニティセンター</li>
-    </ul>
-    <ul class="footer-info-box footer-info-box-support">
-      <li class="footer-info-box-one">サポート</li>
-      <li class="footer-info-box-two">新型コロナウイルスに関する最新情報</li>
-      <li class="footer-info-box-two">ヘルプセンター</li>
-      <li class="footer-info-box-two">キャンセルオプション</li>
-      <li class="footer-info-box-two">近隣コミュニティサポート</li>
-    </ul>
-  </div>
-
-  <div class="footer-copyright-box-gate">
-    <ul class="footer-copyright-box">
-      <li class="footer-copyright-box-one">Airbnb Global Services Limited</li>
-      <li class="footer-copyright-box-two">観光庁長官(01)第S0001号(2018年6月15日-2023年6月14日)</li>
-      <li class="footer-copyright-box-three">© 2020 Airbnb, Inc. All rights reserved·プライバシー·利用規約·サイトマップ·企業情報</li>
-    </ul>
-    <ul class="footer-copyright-box">
-      <li class="footer-copyright-box-four">🌐日本語 (JP) ¥ 通貨を選択JPY<img src="" href=""><img src="" href=""><img src="" href=""></li>
-      <li class="footer-copyright-box-four">　</li>
-      <li class="footer-copyright-box-four">　</li>
-    </ul>
-  </div>
-</footer>
+product {}
+.product {
+  width:100%;
+}
+  .product-wrapper {
+    text-align: center;
+    padding-top:100px;
+    padding-bottom:25px;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 52px;
+  }
+  .product-image-boxgate {
+    text-align: center;
+    padding-bottom:80px;
+  }
+  .product-image-box {
+    display: inline-block;
+    padding-left:4px;
+    padding-right:4px;
+  }
+  .product-image   {
+    padding-bottom:10px;
+  }
+  .product-image img{
+    width:427px;
+    height:417px;
+  }
+  .product-image-box p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+  }
 
 
+.athome  {
+  width:100%;
+  display: block;
+}
+.athome-boxgate {
+}
+.athome-box  {
+  display: inline-block;
+}
+.athome-box-one {
+}
+.athome-box img{
+  width:677px;
+  height:625px;
+}
+.athome-box-image {
+}
+.athome-box-two {
+  width:955px;
+  height:625px;
+  background-color:rgb(235, 235, 235);
+}
+.athome-box-text h1{
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 52px;
+}
+.athome-box-text h2{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+}
+.athome-box-text h3{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color:#008489;
+}
+.athome-box-text span:hover {
+  border-bottom:1px solid #008489 ;
+}
+
+
+.team {
+  display: block;
+}
+.team-box {
+  display: inline-block;
+}
+.team-box-one {
+  width:890px;
+  height:625px;
+  background-color:rgb(3, 107, 112);
+  color:#ffffff;
+}
+.team-box-list {
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0
+}
+.team-box-two {
+}
+.team-box img{
+  width:600px;
+  height:625px;
+}
+
+.creativity {
+  display: block;
+}
+.creativity-box {
+  display: inline-block;
+}
+.creativity-box-one {
+  width:630px;
+  height:625px;
+}
+.creativity-box-two {
+  width:890px;
+  height:625px;
+  background-color:rgb(235, 235, 235);
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+.creativity-box-two {
+  margin: 0
+}
+.creativity-box-two h1{
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 52px;
+}
+.creativity-box-two h2 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+.creativity-box-two h3 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+credit {
+}
+.credit {
+  width:100%;
+  background-color:rgb(3, 107, 112);
+  color:#ffffff;
+  padding-top:70px;
+  padding-bottom:65px;
+}
+.credit-box {
+  display: inline-block;
+}
+.credit-box-gate {
+  list-style: none;
+  text-align: center;
+}
+.credit-box-one {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+}
+.credit-box-two {
+  width:390px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+}
+.credit-box-three {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+.credit-box-three span:hover{
+  border-bottom:2px solid #ffffff ;
+}
+
+
+message {
+  width:100%;
+}
+.message {
+  padding-top:100px;
+  padding-bottom:100px;
+}
+.message-box {
+  display: inline-block;
+}
+.message-box img{
+  width:597px;
+  height:624px;
+}
+.message-box-text {
+  width:663px;
+  height:624px;
+  background-color:rgb(235, 235, 235);
+  color:rgb(72, 72, 72);
+}
+.message-box-gate {
+  list-style: none;
+}
+.message-box-one {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 48px;
+  padding-bottom:40px;
+}
+.message-box-two {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  padding-bottom:5px;
+}
+.message-box-three {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+join {
+}
+.join {
+  text-align: center;
+  width:100%;
+  background-color:rgb(235, 235, 235);
+  color:rgb(72, 72, 72);
+}
+.join-box-one {
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 52px;
+}
+.join-box-two {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+}
+.join-box-three {
+  border-bottom:1px solid rgb(235, 235, 235) ;
+  padding-bottom:48px;
+}
+.join-box-four {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+}
+.join-box-five {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+.join-box-six {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color:color:#008489;;
+}
+.join-box-six span:hover {
+  border-bottom:2px solid color:#008489; ;
+}
+
+
+footer {
+  width:100%;
+}
+.footer-info-box-gate {
+  border-bottom:1px solid rgb(221, 221, 221) ;
+  padding-bottom:50px;
+}
+.footer-info-box {
+  width:20%;
+  list-style: none;
+  display: inline-block;
+}
+.footer-info-box-one {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 17px;
+  color:rgb(34, 35, 35);
+}
+.footer-info-box-two {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color:rgb(84, 84, 84);
+}
+.footer-info-box-two:hover {
+  border-bottom:1px solid rgb(84, 84, 84) ;
+}
+
+.footer-copyright-box-gate {
+
+}
+.footer-copyright-box {
+  width:50%;
+  display: inline-block;
+}
+.footer-copyright-box-one {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+.footer-copyright-box-two {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+.footer-copyright-box-three {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+.footer-copyright-box-four {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+}
 
 
 
@@ -222,10 +463,5 @@
 
 
 
-
-
-
-
-
-
-</html>
+.address {}
+.copyright {}
