@@ -468,12 +468,17 @@ footer {
   border-bottom:1px solid rgb(84, 84, 84) ;
 }
 
+
 .footer-copyright-box-gate {
-text-align: center;
+  text-align: center;
+  display: flex;
 }
 .footer-copyright-box {
-  width:50%;
-  display: inline-block;
+  list-style: none;
+  flex: auto;
+}
+.footer-copyright-box li{
+  text-align: left;
 }
 .footer-copyright-box-one {
   font-weight: 400;
