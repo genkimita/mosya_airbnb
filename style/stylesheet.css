@@ -218,21 +218,26 @@ introduction {
   display: block;
 }
 .team-box {
-  align-items: center;
+  display: inline-block;
 }
-.team-box-list {
+.team-box-one {
   width:890px;
   height:625px;
   background-color:rgb(3, 107, 112);
   color:#ffffff;
+}
+.team-box-list {
   margin-left: auto;
   margin-right: auto;
   margin: 0
 }
 .team-box-two {
+}
+.team-box img{
   width:600px;
   height:625px;
 }
+
 .creativity {
   display: block;
 }
