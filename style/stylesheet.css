@@ -445,7 +445,7 @@ footer {
 .footer-info {
   margin-left: auto;
   margin-right: auto;
-  width: 75%
+  width: 80%
 }
 .footer-info-box-gate {
   border-bottom:1px solid rgb(221, 221, 221) ;
@@ -455,22 +455,23 @@ footer {
 .footer-info-box {
   list-style: none;
   width:300px;
+  padding-left:30px;
 }
-.footer-info-box-one {
+li.footer-info-box-one {
   font-weight: 700;
   font-size: 12px;
   line-height: 17px;
   color:rgb(34, 35, 35);
   padding-bottom:20px;
 }
-.footer-info-box li{
+li.footer-info-box-two{
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
   color:rgb(84, 84, 84);
   padding-bottom:20px;
 }
-.footer-info-box li:hover {
+li.footer-info-box-two:hover {
   border-bottom:1px solid rgb(84, 84, 84) ;
 }
 
@@ -489,22 +490,24 @@ footer {
   list-style: none;
 }
 .footer-copyright-box li{
-  text-align: left;
 }
 .footer-copyright-box-one {
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
+  text-align: left;
 }
 .footer-copyright-box-two {
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
+  text-align: left;
 }
 .footer-copyright-box-three {
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
+  text-align: left;
 }
 .footer-copyright-box-four {
   font-weight: 600;
