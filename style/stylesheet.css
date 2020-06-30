@@ -479,7 +479,7 @@ li.footer-info-box:hover {
 }
 .footer-copyright-box {
   list-style: none;
-  flex: auto;
+  width:300px;
 }
 .footer-copyright-box li{
   text-align: left;
