@@ -335,9 +335,9 @@ credit {
 
 
 message {
+  width:100%;
 }
 .message {
-  width:100%;
   margin-left: auto;
   margin-right: auto;
   display: flex;
