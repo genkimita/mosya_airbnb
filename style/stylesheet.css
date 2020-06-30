@@ -439,7 +439,7 @@ footer {
 .footer-info-box-gate {
   border-bottom:1px solid rgb(221, 221, 221) ;
   padding-bottom:50px;
-  margin:0 auto;
+  text-align: center;
   display: flex;
 }
 .footer-info-box {
