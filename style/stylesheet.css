@@ -414,12 +414,12 @@ input.join-box-three {
   height:60px;
 }
 .join-box-three {
-  padding-bottom:95px;
 }
 .join-box-four {
   font-weight: 600;
   font-size: 16px;
   line-height: 22px;
+  padding-top:95px;
   padding-bottom:10px;
 }
 .join-box-five {
