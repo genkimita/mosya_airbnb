@@ -387,7 +387,6 @@ join {
 }
 .join {
   width:100%;
-  height:450px;
   background-color:rgb(235, 235, 235);
   color:rgb(72, 72, 72);
   display:table;
@@ -396,6 +395,7 @@ join {
 .join-box-gate {
   display: table-cell;
   vertical-align : middle;
+  padding-bottom:50px;
 }
 .join-box-one {
   font-weight: 400;
@@ -413,15 +413,20 @@ input.join-box-three {
   width:450px;
   height:60px;
 }
+.join-box-three {
+  padding-bottom:95px;
+}
 .join-box-four {
   font-weight: 600;
   font-size: 16px;
   line-height: 22px;
+  padding-bottom:10px;
 }
 .join-box-five {
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
+  padding-bottom:10px;
 }
 .join-box-six {
   font-weight: 400;
