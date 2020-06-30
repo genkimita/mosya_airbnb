@@ -472,6 +472,8 @@ footer {
   width:100%;
   text-align: center;
   display: flex;
+  padding-top:22px;
+  padding-bottom:25px;
 }
 .footer-copyright-box {
   list-style: none;
