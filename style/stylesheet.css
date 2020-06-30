@@ -458,14 +458,14 @@ footer {
   color:rgb(34, 35, 35);
   padding-bottom:20px;
 }
-li.footer-info-box-two {
+.footer-info-box li{
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
   color:rgb(84, 84, 84);
   padding-bottom:20px;
 }
-li.footer-info-box:hover {
+.footer-info-box li:hover {
   border-bottom:1px solid rgb(84, 84, 84) ;
 }
 
