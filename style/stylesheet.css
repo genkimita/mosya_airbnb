@@ -433,10 +433,10 @@ input.join-box-three {
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  color:color:#008489;;
+  color:color:rgb(0, 132, 137);
 }
 .join-box-six span:hover {
-  border-bottom:2px solid color:#008489; ;
+  border-bottom:2px solid rgb(0, 132, 137) ;
 }
 
 
@@ -446,7 +446,7 @@ footer {
 .footer-info {
   margin-left: auto;
   margin-right: auto;
-  width: 75%
+  width: 80%
 }
 .footer-info-box-gate {
   border-bottom:1px solid rgb(221, 221, 221) ;
@@ -514,13 +514,13 @@ li.footer-info-box-two:hover {
   text-align: left;
 }
 .footer-copyright-box-four {
+
+}
+li.footer-copyright-box-four {
   font-weight: 600;
   font-size: 14px;
   line-height: 18px;
-  text-align: left;
-}
-li.footer-copyright-box-four {
-
+  text-align: right;
 }
 
 
