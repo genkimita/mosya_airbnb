@@ -446,7 +446,7 @@ footer {
 .footer-info {
   margin-left: auto;
   margin-right: auto;
-  width: 80%
+  width: 75%
 }
 .footer-info-box-gate {
   border-bottom:1px solid rgb(221, 221, 221) ;
@@ -455,11 +455,10 @@ footer {
 }
 .footer-info-box {
   list-style: none;
-  width:300px;
+  width:330px;
   padding-left:30px;
 }
 .footer-info-box-one {
-  padding-bottom:20px;
 }
 li.footer-info-box-one {
   font-weight: 700;
