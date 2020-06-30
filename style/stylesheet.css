@@ -250,12 +250,15 @@ padding: 7px;
 }
 
 .creativity {
-  display: block;
 }
 .creativity-box-gate {
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width:100%;
 }
 .creativity-box {
+  width:50%;
   padding: 7px;
 }
 .creativity-box-one {
@@ -267,13 +270,9 @@ padding: 7px;
   height:625px;
   background-color:rgb(235, 235, 235);
 }
-.creativity-box-two-ul1 {
+.creativity-box-text {
  text-align: left;
  list-style: none;
- flex-direction: column;
-}
-.creativity-box-two-ul1 li{
-  margin:0 auto;
 }
 .creativity-box-li1 {
   font-weight: 400;
