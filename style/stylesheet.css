@@ -301,13 +301,17 @@ credit {
 }
 .credit {
   width:100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
   background-color:rgb(3, 107, 112);
   color:#ffffff;
   padding-top:70px;
   padding-bottom:65px;
 }
 .credit-box {
-  display: inline-block;
+  padding-left:140px;
+  padding-right:140px;
 }
 .credit-box-gate {
   list-style: none;
@@ -317,12 +321,13 @@ credit {
   font-weight: 400;
   font-size: 32px;
   line-height: 36px;
+  padding-bottom:15px;
 }
 .credit-box-two {
-  width:390px;
   font-weight: 400;
   font-size: 18px;
   line-height: 26px;
+  padding-bottom:20px;
 }
 .credit-box-three {
   font-weight: 400;
