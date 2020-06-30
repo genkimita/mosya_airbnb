@@ -338,6 +338,8 @@ message {
 }
 .message {
   width:100%;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   padding-top:100px;
   padding-bottom:100px;
@@ -358,12 +360,13 @@ img.message-box-image {
   display: table;
 }
 .message-box-list {
+  width:390px;
   list-style: none;
   display: table-cell;
   vertical-align: middle;
 }
 .message-box-list li{
-  text-align: center;
+  text-align: left;
 }
 .message-box-li1 {
   font-weight: 400;
