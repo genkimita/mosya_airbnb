@@ -315,7 +315,9 @@ credit {
 }
 .credit-box-gate {
   list-style: none;
-  text-align: center;
+}
+.credit-box-gate li{
+  text-align: left;
 }
 .credit-box-one {
   font-weight: 400;
