@@ -395,6 +395,7 @@ join {
 .join-box-gate {
   display: table-cell;
   vertical-align : middle;
+  padding-top:55px;
   padding-bottom:50px;
 }
 .join-box-one {
