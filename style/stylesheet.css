@@ -518,9 +518,10 @@ li.footer-info-box-two:hover {
   font-weight: 600;
   font-size: 14px;
   line-height: 18px;
+  text-align: left;
 }
 li.footer-copyright-box-four {
-  text-align: right;
+
 }
 
 
