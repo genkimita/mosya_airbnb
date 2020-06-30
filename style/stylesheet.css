@@ -360,7 +360,7 @@ img.message-box-image {
   display: table;
 }
 .message-box-list {
-  width:390px;
+  width:60%;
   list-style: none;
   display: table-cell;
   vertical-align: middle;
