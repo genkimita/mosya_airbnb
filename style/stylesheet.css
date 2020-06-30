@@ -434,13 +434,15 @@ input.join-box-three {
 
 footer {
   width:100%;
-
+}
+.footer-info {
+  margin-left: auto;
+  margin-right: auto;
+  width: 8em
 }
 .footer-info-box-gate {
   border-bottom:1px solid rgb(221, 221, 221) ;
   padding-bottom:50px;
-  margin-left: auto;
-  margin-right: auto;
   display: flex;
 }
 .footer-info-box {
