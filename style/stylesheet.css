@@ -457,11 +457,16 @@ footer {
   width:300px;
   padding-left:30px;
 }
+.footer-info-box-one {
+  padding-bottom:20px;
+}
 li.footer-info-box-one {
   font-weight: 700;
   font-size: 12px;
   line-height: 17px;
   color:rgb(34, 35, 35);
+}
+.footer-info-box-two {
   padding-bottom:20px;
 }
 li.footer-info-box-two{
@@ -469,7 +474,6 @@ li.footer-info-box-two{
   font-size: 14px;
   line-height: 18px;
   color:rgb(84, 84, 84);
-  padding-bottom:20px;
 }
 li.footer-info-box-two:hover {
   border-bottom:1px solid rgb(84, 84, 84) ;
